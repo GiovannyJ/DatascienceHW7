@@ -1,0 +1,19 @@
+
+Call:
+glm(formula = Type_New ~ lat, family = "binomial", data = decade_data)
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -0.675678   0.128214  -5.270 1.36e-07 ***
+lat         -0.019622   0.004545  -4.318 1.58e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 2817  on 2605  degrees of freedom
+Residual deviance: 2798  on 2604  degrees of freedom
+AIC: 2802
+
+Number of Fisher Scoring iterations: 4
+
